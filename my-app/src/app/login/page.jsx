@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import Link from 'next/link'
 
@@ -7,6 +9,7 @@ function Login() {
 
       <h1>Login</h1>
 <Link href='/'>Home </Link>
+
     </div>
   )
 }
