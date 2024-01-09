@@ -12,7 +12,8 @@ export default function Home() {
    <Link  href="/login"> Login </Link>
    <br></br>
    <Link  href="/about"> About </Link>
-   
+   <br />
+   <Link href="/productlist">productlist</Link>
    <br />
    <button onClick={()=>router.push("/login")}>Click Login</button>
     </main>
