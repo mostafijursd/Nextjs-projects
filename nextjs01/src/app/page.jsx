@@ -1,9 +1,12 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+'use client'
+
 
 export default function Home() {
-    return ( <main className = { styles.main } >
-        <h1 > NEXTjs </h1> 
+    return (
+         <main  >
+           
+        <h1 style={{fontFamily:'roboto'}} > NEXTjs </h1> 
+      <h3 style={{fontFamily:'roboto'}}>Using Google  Font</h3>
         </main>
     )
 }
