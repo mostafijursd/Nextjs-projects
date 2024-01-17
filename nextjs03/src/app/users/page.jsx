@@ -7,7 +7,7 @@ import React from 'react'
   }
 export default  async function page() {
     let users= await getData();
- 
+
   return (
     <div>
         <h1>User </h1>
