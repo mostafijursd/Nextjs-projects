@@ -17,3 +17,11 @@ import { NextResponse } from "next/server";
      }
   
      
+     export  function DELETE(request,content){
+let id =content.params.id;
+ if(id){
+   return NextResponse.json({result:"User Deleted" ,success:true},{status:200})
+ }else{
+   return NextResponse.json({result:" Internal error,Please try After sometime" ,success:false},{status:200})
+ }
+     }

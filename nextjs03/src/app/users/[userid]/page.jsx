@@ -6,7 +6,7 @@ async function getData(id){
  }
 export default async function page({params}) {
     let user= await getData(params.userid)
-    console.log(user);
+    
   return (
     <div>
 

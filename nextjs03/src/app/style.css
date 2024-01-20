@@ -1,0 +1,29 @@
+.user-item span {
+    color: #000;
+    font-family: cooper;
+    margin-right: 100px;
+}
+
+.user-item span a {
+    text-decoration: none;
+}
+
+.input-item {
+    display: block;
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+.btn {
+    width: 200px;
+    height: 30px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: rgb(9, 59, 43);
+    cursor: pointer;
+}
+
+.btn :hover {
+    background-color: rgb(86, 154, 131);
+}
